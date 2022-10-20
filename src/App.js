@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="App">
       {colorMap}
-      <colorForm addColor={addColor} />
+      <ColorForm addColor={addColor} />
     </div>
   );
 }
